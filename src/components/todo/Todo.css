@@ -1,0 +1,27 @@
+.input_container{
+    height: 40px;
+    width: 490px;
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.input_todo{
+    background: none;
+    border: none;
+    flex:1;
+}
+.input_todo:focus{
+    outline: none;
+}
+
+.add_todo{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border:none;
+    background: #D7BDE2;
+}
